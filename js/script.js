@@ -1,10 +1,3 @@
-window.addEventListener("load", function () {
-  (document.body.style.overflow = "hidden"),
-    setTimeout(function () {
-      let e = document.getElementById("loading-screen");
-      (e.style.display = "none"), (document.body.style.overflow = "auto");
-    }, 2500);
-});
 const backToTopButton = document.getElementById("back-to-top");
 window.addEventListener("scroll", () => {
   window.scrollY > 300
